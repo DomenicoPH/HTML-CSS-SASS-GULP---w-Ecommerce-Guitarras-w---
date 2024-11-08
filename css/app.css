@@ -317,6 +317,7 @@ $ --> Todos los que tengan alguna clase que termine con '__contenedor'
     font-size: 1.6rem;
 }
 
+/* FOOTER */
 .footer{
     margin-top: 5rem;
     background-color: var(--negro);
@@ -354,3 +355,20 @@ $ --> Todos los que tengan alguna clase que termine con '__contenedor'
     font-weight: 700;
     text-align: center;
 }
+
+/* OTRAS PAGINAS */
+
+/*NOSOTROS*/
+.nosotros__grid{
+    display: grid;
+    gap: 4rem;
+}
+@media (min-width: 768px){ 
+    .nosotros__grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/*BLOG*/
+
+/*TIENDA*/
